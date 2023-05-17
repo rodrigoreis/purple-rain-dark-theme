@@ -6,6 +6,10 @@
   "version": "0.0.1",
   "publisher": "rodrigoreis",
   "icon": "./images/purple-rain-dark-theme-logo.png",
+  "galleryBanner": {
+    "color": "#875cb8",
+    "theme": "dark"
+  },
   "engines": {
     "vscode": "^1.78.0"
   },

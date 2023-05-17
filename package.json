@@ -1,0 +1,24 @@
+{
+  "name": "purple-rain-dark-theme",
+  "displayName": "Purple Rain Dark Theme",
+  "description": "Dark Theme for Visual Studio Code",
+  "repository": "https://github.com/rodrigoreis/purple-rain-dark-theme",
+  "version": "0.0.1",
+  "publisher": "rodrigoreis",
+  "icon": "./images/purple-rain-dark-theme-logo.png",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Purple Rain Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/purple-rain-dark-theme-color-theme.json"
+      }
+    ]
+  }
+}

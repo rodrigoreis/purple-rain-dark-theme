@@ -19,7 +19,7 @@
   "tokenColors": [
     {
       "name": "all other texts",
-      "scope": "source",
+      "scope": ["source", "punctuation.support.type.property-name"],
       "settings": {
         "foreground": "#9e9e9e"
       }
@@ -30,7 +30,7 @@
       "settings": {
         "foreground": "#ed94c0"
       }
-    },
+    },  
     {
       "name": "return, await, etc",
       "scope": [
@@ -41,7 +41,7 @@
         "storage.modifier.async",
         "keyword.operator.optional",
         "punctuation.accessor.optional",
-        "constant.language.boolean"
+        "constant.language"
       ],
       "settings": {
         "foreground": "#875cb8"
@@ -94,7 +94,7 @@
     },
     {
       "name": "single quote strings",
-      "scope": ["string.quoted.single", "punctuation.definition.string"],
+      "scope": ["string.quoted.single", "string.quoted.double", "punctuation.definition.string"],
       "settings": {
         "foreground": "#c9a26d"
       }
@@ -110,14 +110,14 @@
       "name": "numbers",
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "#ff5864"
+        "foreground": "#ed94c0"
       }
     },
     {
       "name": "numbers",
-      "scope": "constant.numeric.decimal",
+      "scope": "constant.numeric.hex",
       "settings": {
-        "foreground": "#ed94c0"
+        "foreground": "#ff5864"
       }
     },
     {

@@ -94,8 +94,8 @@
     "editor.snippetFinalTabstopHighlightBackground": "#282A36",
     "editor.snippetFinalTabstopHighlightBorder": "#50FA7B",
     "editorWhitespace.foreground": "#FFFFFF1A",
-    "editorIndentGuide.background1": "#FFFFFF1A",
-    "editorIndentGuide.activeBackground1": "#FFFFFF45",
+    "editorIndentGuide.background1": "#67587523",
+    "editorIndentGuide.activeBackground1": "#67587523",
     "editorRuler.foreground": "#FFFFFF1A",
     "editorCodeLens.foreground": "#6272A4",
     "editorBracketHighlight.foreground1": "#F8F8F2",
@@ -271,7 +271,10 @@
         "meta.brace.round",
         "meta.brace.square",
         "keyword.operator.assignment",
-        "keyword.operator.comparison"
+        "keyword.operator.comparison",
+        "keyword.operator.logical",
+        "keyword.operator.expression",
+        "keyword.operator.optional"
       ],
       "settings": {
         "foreground": "#675875"
@@ -417,7 +420,7 @@
         "variable.other.constant"
       ],
       "settings": {
-        "foreground": "#6C95EB"
+        "foreground": "#BDBDBD"
       }
     },
     {
@@ -428,7 +431,7 @@
       "settings": {
         "foreground": "#D688D4"
       }
-    },    
+    },
     {
       "name": "variable",
       "scope": [
@@ -437,7 +440,34 @@
       "settings": {
         "foreground": "#BDBDBD"
       }
-    }, 
+    },
+    {
+      "name": "alias",
+      "scope": [
+        "variable.other.readwrite.alias"
+      ],
+      "settings": {
+        "foreground": "#C191FF"
+      }
+    },
+    {
+      "name": "variable local",
+      "scope": [
+        "variable.local.readonly"
+      ],
+      "settings": {
+        "foreground": "#BDBDBD"
+      }
+    },
+    {
+      "name": "parameter",
+      "scope": [
+        "variable.parameter"
+      ],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },    
   ],
   "semanticTokenColors": {
     "class.defaultLibrary": {
@@ -453,24 +483,24 @@
       "foreground": "#39CC8F"
     },
     "parameter.declaration": {
-      "foreground": "#BDBDBD"
+      "foreground": "#FFFFFF"
     },
     "property.declaration.readonly": {
-      "foreground": "#40787d",
+      "foreground": "#66C3CC",
       "fontStyle": "italic"
     },
     "property.readonly": {
-      "foreground": "#40787d",
+      "foreground": "#66C3CC",
       "fontStyle": "italic"
     },
-    "variable.local": {
-      "fontStyle": "underline"
+    "variable.readonly": {
+      "foreground": "#C191FF"
     },
-    "variable.declaration.local": {
-      "fontStyle": "underline"
-    },
-    "function.declaration.local": {
-      "fontStyle": "underline"
+    "variable.readonly.local": {
+      "foreground": "#BDBDBD"
+    },        
+    "function.readonly.local": {
+      "fontStyle": "italic"
     }
   }
 }

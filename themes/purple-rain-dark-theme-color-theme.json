@@ -94,8 +94,8 @@
     "editor.snippetFinalTabstopHighlightBackground": "#282A36",
     "editor.snippetFinalTabstopHighlightBorder": "#50FA7B",
     "editorWhitespace.foreground": "#FFFFFF1A",
-    "editorIndentGuide.background": "#FFFFFF1A",
-    "editorIndentGuide.activeBackground": "#FFFFFF45",
+    "editorIndentGuide.background1": "#FFFFFF1A",
+    "editorIndentGuide.activeBackground1": "#FFFFFF45",
     "editorRuler.foreground": "#FFFFFF1A",
     "editorCodeLens.foreground": "#6272A4",
     "editorBracketHighlight.foreground1": "#F8F8F2",
@@ -420,6 +420,24 @@
         "foreground": "#6C95EB"
       }
     },
+    {
+      "name": "constant escapes",
+      "scope": [
+        "constant.character.escape"
+      ],
+      "settings": {
+        "foreground": "#D688D4"
+      }
+    },    
+    {
+      "name": "variable",
+      "scope": [
+        "variable.other.readwrite"
+      ],
+      "settings": {
+        "foreground": "#BDBDBD"
+      }
+    }, 
   ],
   "semanticTokenColors": {
     "class.defaultLibrary": {
@@ -427,7 +445,7 @@
     },
     "variable.defaultLibrary": {
       "foreground": "#ED94C0"
-    },    
+    },
     "method.static": {
       "foreground": "#39CC8F"
     },
@@ -440,15 +458,18 @@
     "property.declaration.readonly": {
       "foreground": "#40787d",
       "fontStyle": "italic"
-    }, 
+    },
     "property.readonly": {
       "foreground": "#40787d",
       "fontStyle": "italic"
-    },     
+    },
     "variable.local": {
       "fontStyle": "underline"
-    },    
+    },
     "variable.declaration.local": {
+      "fontStyle": "underline"
+    },
+    "function.declaration.local": {
       "fontStyle": "underline"
     }
   }

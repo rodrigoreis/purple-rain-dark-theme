@@ -3,7 +3,7 @@
   "displayName": "Purple Rain Dark Theme",
   "description": "Dark Theme for Visual Studio Code",
   "repository": "https://github.com/rodrigoreis/purple-rain-dark-theme",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "publisher": "rodrigoreis",
   "icon": "./images/purple-rain-dark-theme-logo.png",
   "galleryBanner": {

@@ -274,7 +274,8 @@
         "keyword.operator.comparison",
         "keyword.operator.logical",
         "keyword.operator.expression",
-        "keyword.operator.optional"
+        "keyword.operator.optional",
+        "keyword.operator.type"
       ],
       "settings": {
         "foreground": "#675875"
@@ -468,6 +469,15 @@
         "foreground": "#FFFFFF"
       }
     },    
+    {
+      "name": "builtin types",
+      "scope": [
+        "support.type.builtin"
+      ],
+      "settings": {
+        "foreground": "#ED94C0"
+      }
+    },
   ],
   "semanticTokenColors": {
     "class.defaultLibrary": {

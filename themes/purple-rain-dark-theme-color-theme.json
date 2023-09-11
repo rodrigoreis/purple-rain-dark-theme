@@ -478,6 +478,16 @@
         "foreground": "#ED94C0"
       }
     },
+    {
+      "name": "Imported default",
+      "scope": [
+        "variable.other.constant.object",
+        "variable.other.constant"
+      ],
+      "settings": {
+        "foreground": "#C191FF"
+      }
+    }
   ],
   "semanticTokenColors": {
     "class.defaultLibrary": {

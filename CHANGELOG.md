@@ -1,7 +1,10 @@
 # Change Log
 
+## [0.0.7]
+- Fix constants
+
 ## [0.0.6]
-- Fix logical operato and fix builtin types
+- Fix logical operator and fix builtin types
 
 ## [0.0.2]
 - Fix JSON colors

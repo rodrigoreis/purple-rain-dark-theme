@@ -97,7 +97,7 @@
     "editorIndentGuide.background1": "#67587523",
     "editorIndentGuide.activeBackground1": "#67587523",
     "editorRuler.foreground": "#FFFFFF1A",
-    "editorCodeLens.foreground": "#6272A4",
+    "editorCodeLens.foreground": "#675875",
     "editorBracketHighlight.foreground1": "#F8F8F2",
     "editorBracketHighlight.foreground2": "#FF79C6",
     "editorBracketHighlight.foreground3": "#8BE9FD",
@@ -225,7 +225,7 @@
         "constant.numeric",
       ],
       "settings": {
-        "foreground": "#ED94C0"
+        "foreground": "#EA85D9"
       }
     },
     {
@@ -439,7 +439,7 @@
         "variable.other.readwrite"
       ],
       "settings": {
-        "foreground": "#BDBDBD"
+        "foreground": "#6C95EB"
       }
     },
     {
@@ -512,6 +512,15 @@
     "property.readonly": {
       "foreground": "#66C3CC",
       "fontStyle": "italic"
+    },
+    "variable": {
+      "foreground": "#ED94C0"
+    },
+    "variable.local": {
+      "foreground": "#BDBDBD"
+    },
+    "variable.declaration.local": {
+      "foreground": "#BDBDBD"
     },
     "variable.readonly": {
       "foreground": "#C191FF"

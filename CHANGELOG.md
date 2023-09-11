@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.0.8]
+- Fix variable types
+
 ## [0.0.7]
 - Fix constants
 

@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.0.9]
+- Add support for react
+
 ## [0.0.8]
 - Fix variable types
 

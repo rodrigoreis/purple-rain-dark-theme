@@ -275,7 +275,8 @@
         "keyword.operator.logical",
         "keyword.operator.expression",
         "keyword.operator.optional",
-        "keyword.operator.type"
+        "keyword.operator.type",
+        "keyword.operator.ternary.tsx"
       ],
       "settings": {
         "foreground": "#675875"
@@ -486,6 +487,24 @@
       ],
       "settings": {
         "foreground": "#C191FF"
+      }
+    },
+    {
+      "name": "Tag name",
+      "scope": [
+        "entity.name.tag.tsx",
+      ],
+      "settings": {
+        "foreground": "#C191FF"
+      }
+    },
+    {
+      "name": "Tag attribute",
+      "scope": [
+        "entity.other.attribute-name.tsx",
+      ],
+      "settings": {
+        "foreground": "#91B0EC"
       }
     }
   ],

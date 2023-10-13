@@ -276,7 +276,8 @@
         "keyword.operator.expression",
         "keyword.operator.optional",
         "keyword.operator.type",
-        "keyword.operator.ternary.tsx"
+        "keyword.operator.ternary.tsx",
+        "keyword.operator.relational"
       ],
       "settings": {
         "foreground": "#675875"
@@ -332,7 +333,8 @@
         "keyword.operator.new",
         "keyword.operator.expression.typeof",
         "keyword.other.class",
-        "keyword.type"
+        "keyword.type",
+        "variable.object.property"
       ],
       "settings": {
         "foreground": "#6C95EB"

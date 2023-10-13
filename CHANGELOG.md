@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.0.10]
+- Fix for TS generics
+
 ## [0.0.9]
 - Add support for react
 

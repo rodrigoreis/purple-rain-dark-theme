@@ -471,7 +471,7 @@
       "settings": {
         "foreground": "#FFFFFF"
       }
-    },    
+    },
     {
       "name": "builtin types",
       "scope": [
@@ -494,7 +494,7 @@
     {
       "name": "Tag name",
       "scope": [
-        "entity.name.tag.tsx",
+        "entity.name.tag.tsx"
       ],
       "settings": {
         "foreground": "#C191FF"
@@ -508,7 +508,66 @@
       "settings": {
         "foreground": "#91B0EC"
       }
-    }
+    },
+    {
+      "name": "YAML Entity name",
+      "scope": [
+        "entity.name.tag.yaml",
+      ],
+      "settings": {
+        "foreground": "#6C95EB"
+      }
+    },
+    {
+      "name": "YAML Alias",
+      "scope": [
+        "variable.other.alias.yaml"
+      ],
+      "settings": {
+        "foreground": "#E1BFFF"
+      }
+    },    
+    {
+      "name": "YAML Entity Name Type Anchor",
+      "scope": [
+        "entity.name.type.anchor.yaml",
+      ],
+      "settings": {
+        "foreground": "#39CC56"
+      }
+    },    
+    {
+      "name": "YAML Plain",
+      "scope": [
+        "string.unquoted.plain.out.yaml",
+      ],
+      "settings": {
+        "foreground": "#BDBDBD"
+      }
+    },
+    {
+      "name": "YAML String",
+      "scope": [
+        "string.unquoted.plain.in.yaml",
+        "string.quoted.single.yaml",
+        "string.quoted.double.yaml"
+      ],
+      "settings": {
+        "foreground": "#FFD49E"
+      }
+    },
+    {
+      "name": "YAML Punctuation Definition Block",
+      "scope": [
+        "constant.language.merge.yaml",
+        "punctuation.definition.block.sequence.item.yaml",
+        "punctuation.definition.anchor.yaml",
+        "punctuation.definition.alias.yaml"
+      ],
+      "settings": {
+        "foreground": "#C191FF"
+      }
+    }     
   ],
   "semanticTokenColors": {
     "class.defaultLibrary": {
@@ -548,7 +607,7 @@
     },
     "variable.readonly.local": {
       "foreground": "#BDBDBD"
-    },        
+    },
     "function.readonly.local": {
       "fontStyle": "italic"
     }

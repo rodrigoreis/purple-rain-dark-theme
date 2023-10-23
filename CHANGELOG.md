@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.0.11]
+- Add support for YAML
+
 ## [0.0.10]
 - Fix for TS generics
 

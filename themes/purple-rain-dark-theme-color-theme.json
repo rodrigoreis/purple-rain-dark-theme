@@ -277,7 +277,8 @@
         "keyword.operator.optional",
         "keyword.operator.type",
         "keyword.operator.ternary.tsx",
-        "keyword.operator.relational"
+        "keyword.operator.relational",
+        "statement.captured-options.proto"
       ],
       "settings": {
         "foreground": "#675875"
@@ -334,7 +335,20 @@
         "keyword.operator.expression.typeof",
         "keyword.other.class",
         "keyword.type",
-        "variable.object.property"
+        "variable.object.property",
+        "keyword.package.proto",
+        "keyword.message.proto",
+        "keyword.rpc.proto",
+        "keyword.returns.proto",
+        "keyword.service.proto",
+        "keyword.option.proto",
+        "meta.syntax.value.proto",
+        "keyword.enum.proto",
+        "keyword.field.type.proto",
+        "keyword.syntax.proto",
+        "keyword.map.proto",
+        "keyword.rpc.type.proto",
+        "keyword.import.proto"
       ],
       "settings": {
         "foreground": "#6C95EB"
@@ -370,7 +384,8 @@
     {
       "name": "enum member",
       "scope": [
-        "variable.other.enummember"
+        "variable.other.enummember",
+        "entity.name.type.enum-value"
       ],
       "settings": {
         "foreground": "#E1BFFF"
@@ -526,7 +541,7 @@
       "settings": {
         "foreground": "#E1BFFF"
       }
-    },    
+    },
     {
       "name": "YAML Entity Name Type Anchor",
       "scope": [
@@ -535,7 +550,7 @@
       "settings": {
         "foreground": "#39CC56"
       }
-    },    
+    },
     {
       "name": "YAML Plain",
       "scope": [
@@ -567,7 +582,63 @@
       "settings": {
         "foreground": "#C191FF"
       }
-    }     
+    },
+    {
+      "name": "PROTOBUF Entity Name",
+      "scope": [
+        "entity.name.section.package.proto",
+        "entity.name.type.service.proto"
+      ],
+      "settings": {
+        "foreground": "#C191FF"
+      }
+    },
+    {
+      "name": "PROTOBUF Entity Name Type",
+      "scope": [
+        "entity.name.type.message.proto"
+      ],
+      "settings": {
+        "foreground": "#875CB8"
+      }
+    },
+    {
+      "name": "PROTOBUF RPC Method",
+      "scope": [
+        "entity.name.type.request.proto",
+        "entity.name.type.response.proto"
+      ],
+      "settings": {
+        "foreground": "#875CB8"
+      },
+    },
+    {
+      "name": "PROTOBUF Variable Name",
+      "scope": [
+        "variable.name.field.proto"
+      ],
+      "settings": {
+        "foreground": "#66C3CC"
+      },
+    },
+    {
+      "name": "PROTOBUF Meta Syntax",
+      "scope": [
+        "meta.syntax.value.proto"
+      ],
+      "settings": {
+        "foreground": "#6C95EB"
+      },
+    },
+    {
+      "name": "PROTOBUF Variable Name",
+      "scope": [
+        "variable.name.option.proto"
+      ],
+      "settings": {
+        "foreground": "#875CB8"
+      },
+    }
   ],
   "semanticTokenColors": {
     "class.defaultLibrary": {

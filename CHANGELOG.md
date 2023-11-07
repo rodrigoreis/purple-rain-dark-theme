@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.0.12]
+- Add support for PROTOBUF
+
 ## [0.0.11]
 - Add support for YAML
 

@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.0.13]
+- Refac minor issues
+
 ## [0.0.12]
 - Add support for PROTOBUF
 

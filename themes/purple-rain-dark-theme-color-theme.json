@@ -211,6 +211,21 @@
       }
     },
     {
+      "name": "keywords",
+      "scope": [
+        "keyword",
+        "storage.modifier",
+        "storage.type",
+        "support.type",
+        "variable.language.this",
+        "variable.object.property",
+        "meta.syntax.value.proto",   
+      ],
+      "settings": {
+        "foreground": "#6C95EB"
+      }
+    },    
+    {
       "name": "method",
       "scope": [
         "entity.name.function",
@@ -231,7 +246,6 @@
     {
       "name": "strings",
       "scope": [
-        "punctuation.definition.string",
         "string.quoted.double",
         "string.quoted.single"
       ],
@@ -242,7 +256,6 @@
     {
       "name": "strings template",
       "scope": [
-        "punctuation.definition.string.template",
         "string.template",
       ],
       "settings": {
@@ -265,19 +278,11 @@
     {
       "name": "punctuation",
       "scope": [
-        "punctuation",
-        "keyword.operator.type.annotation",
+        "punctuation",        
         "storage.type.function.arrow",
         "meta.brace.round",
         "meta.brace.square",
-        "keyword.operator.assignment",
-        "keyword.operator.comparison",
-        "keyword.operator.logical",
-        "keyword.operator.expression",
-        "keyword.operator.optional",
-        "keyword.operator.type",
-        "keyword.operator.ternary.tsx",
-        "keyword.operator.relational",
+        "keyword.operator",
         "statement.captured-options.proto"
       ],
       "settings": {
@@ -321,37 +326,6 @@
       ],
       "settings": {
         "foreground": "#6D593A"
-      }
-    },
-    {
-      "name": "keywords",
-      "scope": [
-        "storage.modifier",
-        "storage.type",
-        "keyword.control",
-        "support.type",
-        "variable.language.this",
-        "keyword.operator.new",
-        "keyword.operator.expression.typeof",
-        "keyword.other.class",
-        "keyword.type",
-        "variable.object.property",
-        "keyword.package.proto",
-        "keyword.message.proto",
-        "keyword.rpc.proto",
-        "keyword.returns.proto",
-        "keyword.service.proto",
-        "keyword.option.proto",
-        "meta.syntax.value.proto",
-        "keyword.enum.proto",
-        "keyword.field.type.proto",
-        "keyword.syntax.proto",
-        "keyword.map.proto",
-        "keyword.rpc.type.proto",
-        "keyword.import.proto"
-      ],
-      "settings": {
-        "foreground": "#6C95EB"
       }
     },
     {
